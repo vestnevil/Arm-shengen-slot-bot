@@ -19,7 +19,7 @@ try:
 except (TypeError, ValueError) as e:
     raise ValueError(f"MY_USER_ID or TARGET_CHAT_ID environment variable is missing or invalid: {e}")
 
-KEYWORDS = ["слот", "слоты", "появились", "выложил", "запись"]
+KEYWORDS = ["слот", "слоты", "появились", "выложил", "запись", "открыли", "окна"]
 
 # --- Setup ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
